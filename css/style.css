@@ -7407,9 +7407,25 @@ section.content, .car-block-wrap, .welcome-wrap {
 	border-radius: 30px;
   }
 
+  @media  only screen and (min-width: 600px){
+	.web{
+
+		visibility: hidden!important;
+	}
+	
+  }
+
   @media only screen and (max-width: 600px) {
 	.banner-wrap {
 	  padding-top: 150px;
+
+
+	
+	}
+
+	.movil{
+
+		visibility: hidden!important;
 	}
 
 	.tituloslider{
@@ -7458,3 +7474,4 @@ background: #707070;
 .logos{
 	margin: 5px;
 }
+
