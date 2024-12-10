@@ -2279,7 +2279,7 @@ footer {
 	background-color: #08689e;
 	padding: 47px 0 64px 0;
 	color: #fff;
-	font-size: 14px;
+	font-size: 17px;
 }
 
 .car-rate-block.row {
@@ -7406,3 +7406,55 @@ section.content, .car-block-wrap, .welcome-wrap {
     text-align: center;
 	border-radius: 30px;
   }
+
+  @media only screen and (max-width: 600px) {
+	.banner-wrap {
+	  padding-top: 150px;
+	}
+
+	.tituloslider{
+
+		font-family: 'Raleway', sans-serif;
+		color: white!important;
+		background-color: red;
+		letter-spacing: 1px;
+		padding: 25px ;
+		margin: 0;
+		text-align: center;
+		border-radius: 30px;
+		font-size: 18px!important;
+	
+
+		.tituloslider2{{
+
+
+		}
+  }
+
+
+
+  
+  }
+
+  .logos .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.logos .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.logos .carousel-indicators .active {
+background: #707070;
+}
+
+.logos{
+	margin: 5px;
+}
