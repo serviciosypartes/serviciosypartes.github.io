@@ -109,7 +109,7 @@ h3 {
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 22px;
 }
 
 h5 {
@@ -7401,12 +7401,24 @@ section.content, .car-block-wrap, .welcome-wrap {
     color: white!important;
     background-color: #2A5DA3;
     letter-spacing: 1px;
-    padding: 10px 0;
+    padding: 10px;
     margin: 0;
     text-align: center;
 	border-radius: 30px;
   }
 
+  .sbtitulo{
+    margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+    color: white!important;
+    background-color: #c7081b;
+	font-weight: 800;
+    letter-spacing: 1px;
+    padding: 10px ;
+    margin: 0;
+    text-align: center;
+	border-radius: 30px;
+  }
   @media  only screen and (min-width: 600px){
 	.web{
 
